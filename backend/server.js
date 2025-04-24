@@ -5,7 +5,7 @@ import ws from 'ws';
 import connectDB from './config/databaseConfig';
 import serverConfig from './config/serverConfig';
 
-dotenv.config({path: `.env.${serverConfig.env}`});
+dotenv.config();
 
 const app = express();
 
