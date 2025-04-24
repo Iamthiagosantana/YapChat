@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
-    "test": "NODE_ENV=test nodemon server.js",
+    "test": "NODE_ENV=test jest",
     "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
@@ -21,5 +21,9 @@
     "mongoose": "^8.13.2",
     "nodemon": "^3.1.10",
     "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
   }
 }
